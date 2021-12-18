@@ -95,7 +95,7 @@ func main() {
 		}
 	})
 
-	// g.Wait 等待所有 go执行完毕后执行
+	// g.Wait() 等待所有goroutine执行完毕后执行
 	err := g.Wait()
 	fmt.Println("g.Wait() return error is :", err)
 	fmt.Println(ctx.Err())
