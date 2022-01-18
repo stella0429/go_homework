@@ -1,0 +1,104 @@
+******************分析开始******************
+测试的key值为： 6qKCknJMBGFnp2gGEr1EtxhipXJqVt2AqRF1snGmaso7FBIRqD value大小为： 10000 字节，占用内存大小为： 10384
+测试的key值为： J0ZkpVZJ7XTYV7cFxuYK8QumKTjKNqfNaDGLHbVvhS86frkyCC value大小为： 10000 字节，占用内存大小为： 10384
+测试的key值为： gvejcpFmx2FBTOrJKlgr1wmpgTZRzqawfLdesu6HQdnwugUUNI value大小为： 10000 字节，占用内存大小为： 10384
+测试的key值为： LdQeVKR7oocqgDXf60VSXbA3VQpUzorxGlyXKEDa35iMyl1UMk value大小为： 10000 字节，占用内存大小为： 10384
+测试的key值为： 2z4Ta2GCBxdoKYVdDVb6LMsAybHBUlMudnAqjT1fPMUbwpeN0V value大小为： 10000 字节，占用内存大小为： 10448
+测试的key值为： 6XZwc7dmYdUeSOG55XA42ICMyhUCYzleG86utJ5q61GQIeCUd0 value大小为： 10000 字节，占用内存大小为： 10352
+测试的key值为： 5w63JKmG1e1L2dY4WBG8fJPppZCg2jFTt40DfOGG2bbSfbDu48 value大小为： 10000 字节，占用内存大小为： 10384
+测试的key值为： 7wI64YxkulCYJrelrloze5eNBz7XOvV0dONjv2PRd1C4ndoimZ value大小为： 10000 字节，占用内存大小为： 10384
+测试的key值为： vcKaA8EkhuJRhiEFbTfk0xjkawjQpKsubfEK4Zu03hJURKWyix value大小为： 10000 字节，占用内存大小为： 10512
+测试的key值为： DQdFfSFPTDEVNhsZ3RLp7oeESDxEYmD5WYVmEWstpGPUqzh8kb value大小为： 10000 字节，占用内存大小为： 10320
+******************分析结果******************
+测试value大小为： 10000 字节，平均每个 key 的占用内存空间 10393
+
+
+******************分析开始******************
+测试的key值为： qV7ZIIYvj3XfwI5khxU9PJLzcrIURzuVWk6kiQBAaBo9X6YWPl value大小为： 20000 字节，占用内存大小为： 20624
+测试的key值为： KcXcvI07ebE6apZ60MsL5VOb6aZr6PjGQsokS00C0p6cNFygIi value大小为： 20000 字节，占用内存大小为： 20624
+测试的key值为： ZhULhGXdnS8ARCzXJoeSpSqGEvEnpP8wIx4rsU2ZSfUnHWwjvu value大小为： 20000 字节，占用内存大小为： 60560
+测试的key值为： PJOtohfEcrPKDfLny4Ewu1hkgw3hZf5Vv0hMYwKwLfpwO0Q1Wd value大小为： 20000 字节，占用内存大小为： 20880
+测试的key值为： 2x1y06otWPMOqytAmklM7VsPNc2FIn9GcOMGVmGnCJ7CmCpZB8 value大小为： 20000 字节，占用内存大小为： 20624
+测试的key值为： P4158HSX9pqGIReykEfVJZA1WQXCcv3LFlaBtgdctlWqxu6jK2 value大小为： 20000 字节，占用内存大小为： 20624
+测试的key值为： CQP6CcFZgNttEInw5kUYd5RRjDylqhuzU20rgoBIo72oafgYKT value大小为： 20000 字节，占用内存大小为： 20880
+测试的key值为： fB65Hr3W8li0GJxipxKft5IHFwsKYiibrG9npnh2Rs8Cx5O7Cx value大小为： 20000 字节，占用内存大小为： 20624
+测试的key值为： E2OKkRbqbOkp4Tvokd10QWcaIVT0Ctiqx311jufhy5sWa6NmlR value大小为： 20000 字节，占用内存大小为： 60560
+测试的key值为： a3jAReDaaMs3t0TOYS0rpPvbzvBaLiEoSh4gYHX1QxX7gZHzzz value大小为： 20000 字节，占用内存大小为： 20624
+******************分析结果******************
+测试value大小为： 20000 字节，平均每个 key 的占用内存空间 28662
+
+
+******************分析开始******************
+测试的key值为： GLJn2iFIRP5r8zwDGCuv0XxILG7x73n6j0hZdABhumso3qnqIs value大小为： 50000 字节，占用内存大小为： 67216
+测试的key值为： BrzyMBgtSUb7mgp19Fl19FG7OfuIJTwQRs8ZxKOtGzNXu5LuU4 value大小为： 50000 字节，占用内存大小为： 67216
+测试的key值为： zVVq0ZDcXMzlx8aUmHSo3ERQKZLLFD1eXnRVQqWrBj3ip1IUzQ value大小为： 50000 字节，占用内存大小为： 67216
+测试的key值为： oqZdlhCMkBrYLiE9vh01mQIFhSgusctjTmlbBrjcg3JpJQxZA1 value大小为： 50000 字节，占用内存大小为： 67216
+测试的key值为： xtJdZv5QBcxfWNV90CYjBJCrZfOJbJ1kq0MoRAzM14zVZoR5pD value大小为： 50000 字节，占用内存大小为： 67216
+测试的key值为： XvuQDnghuH72ivpx27V1io16buEcadvthGDa0TxMal4wqo0a0V value大小为： 50000 字节，占用内存大小为： 67216
+测试的key值为： 6brX9AgeMTx5mUbSFFdyDeamrJbKtBuY9oO1yjHvv6TBaeptuY value大小为： 50000 字节，占用内存大小为： 67216
+测试的key值为： 1G4x3Fy5PTqdOCfgzf5c73iS82OhG2xDN1rTFVRFNdFzjcX6Ym value大小为： 50000 字节，占用内存大小为： 67216
+测试的key值为： xdaQAKKnG1yDer6cLQzF3lBg6o5tnFgjYC6hThEeBZgfIV1z9Z value大小为： 50000 字节，占用内存大小为： 67216
+测试的key值为： 4FCbySspNXsztC6nhNkB3PMZ3COLj8bLS3dKI9Wa653BWA5QDb value大小为： 50000 字节，占用内存大小为： 67728
+******************分析结果******************
+测试value大小为： 50000 字节，平均每个 key 的占用内存空间 67267
+
+
+******************分析开始******************
+测试的key值为： RaolTjz3OJI6TEYEgN9UpovjwFLFbK9iJm5sSpDiykcoDyKhJX value大小为： 100000 字节，占用内存大小为： 167568
+测试的key值为： XqB3rC61nR7yRMSiJQc0MQ7ozpmC9c6So0jVjXqipBuZ4l7S1s value大小为： 100000 字节，占用内存大小为： 167568
+测试的key值为： 1BPXZzIm3UFxVkQbz77aXpmhF5LQ5yiScbWtmigG0RCZZXb2OK value大小为： 100000 字节，占用内存大小为： 168080
+测试的key值为： NWVeXdoFFT1TYLwyjCtAzsjx3uXnO7OK1TA6CSKaSr9xeMhxsd value大小为： 100000 字节，占用内存大小为： 167568
+测试的key值为： aZ0cyFMuMOqfRK6IsPH79bRAYGbNbuexLp2hbWlldiXhu3OWfE value大小为： 100000 字节，占用内存大小为： 167568
+测试的key值为： I7sI9MYLaz9hPuU4IcmrtLyLjOZg4tAK50wjnxRlYkt0thnMRA value大小为： 100000 字节，占用内存大小为： 167568
+测试的key值为： odcmhbH8YCATEMlELMJNGKzljtZrIo19jaqHb6es2fgzX1lBcB value大小为： 100000 字节，占用内存大小为： 167568
+测试的key值为： 2YOci71jUjDBpfC9KQ8vLTX91j2T8OzTWpiZnVfjBczHiIBCSW value大小为： 100000 字节，占用内存大小为： 167568
+测试的key值为： aNEcuxRSM2UpAIrRygW5YwQfoTVvELCw71bEaOhzSNkL2wEz8Y value大小为： 100000 字节，占用内存大小为： 167568
+测试的key值为： LBuPk04jbYSCXF3DrAeXYakbwm6zzGJx4f2AsFALMu2F5bDEqT value大小为： 100000 字节，占用内存大小为： 167568
+******************分析结果******************
+测试value大小为： 100000 字节，平均每个 key 的占用内存空间 167619
+
+
+******************分析开始******************
+测试的key值为： zelJZWPTp8JqNP5ageY1O7f77x2MRqFhQd6bYz4LzlJOKDtlXR value大小为： 200000 字节，占用内存大小为： 368272
+测试的key值为： bVtIYd2SLx80BwPSWb8XNUwUOZaxEnEBTPYjgYbm6xtO91563F value大小为： 200000 字节，占用内存大小为： 368272
+测试的key值为： pNAwFqZg9Webeis9NzM3wC4M9njypoAz7pb6c9lfjA8apjQQDa value大小为： 200000 字节，占用内存大小为： 368272
+测试的key值为： n0JLUOj1PFUGqFi4iGjlWjbn5qWjWVeXyyC9NrkW1CiGRXkG4k value大小为： 200000 字节，占用内存大小为： 368272
+测试的key值为： pR5A747vVw1bPMsgeJmWGoflibainzqFeXzCBkmZiwetrzMdJN value大小为： 200000 字节，占用内存大小为： 368272
+测试的key值为： 5VAB8ZRIK0enXCscEegfOqfdy3B3gh9hVbwcMmuYk2Bb84zIA4 value大小为： 200000 字节，占用内存大小为： 368272
+测试的key值为： dNqbsKN3zOTyPCzJd1j2CBKsvpsTrmskZgV8hICoei6ouuNAnS value大小为： 200000 字节，占用内存大小为： 368272
+测试的key值为： WVj3xEW6oTJsnxww4rUfqK7MhaghG4C2GnKMwaAS5MSFKSArED value大小为： 200000 字节，占用内存大小为： 368272
+测试的key值为： nqfsmnpYkhv47jOGkRDy5t9Xta7B1iIIMzLQrGn6Pyj4OC00Jt value大小为： 200000 字节，占用内存大小为： 368272
+测试的key值为： ImMlLGW7B2E4yfGRdLNDfWyTmSVLyvQgqIZx0qkDTCJiJSDlUF value大小为： 200000 字节，占用内存大小为： 368272
+******************分析结果******************
+测试value大小为： 200000 字节，平均每个 key 的占用内存空间 368272
+
+
+******************分析开始******************
+测试的key值为： rlX8SNiwlAKL84bW1Tycpj73ZBmmih6ajmTNnUb7wwMMAVl9sW value大小为： 300000 字节，占用内存大小为： 872080
+测试的key值为： Qa3915QgUV7EgUuv2sVDDzAWZoKrUC6j7GiVjvdRlqCTYsmhmC value大小为： 300000 字节，占用内存大小为： 872080
+测试的key值为： PhmVRKaK4XwgRvnlXWeYFmJMoBEf6TFUP2RJh7F73YU0P0T663 value大小为： 300000 字节，占用内存大小为： 872080
+测试的key值为： QhHuFEMSbDGZBO88gA3GYCr3S0JRA7qPyg1fvrTHXXDkWrwsfZ value大小为： 300000 字节，占用内存大小为： 872080
+测试的key值为： LGWgwBNISvSZww72o6a8IB08eirGowSJ8l2OB36SLd6qwg8vOf value大小为： 300000 字节，占用内存大小为： 872080
+测试的key值为： DGqmIQ2EcOqOftGKi7AXHAwiLKOQ1YqULOb4PRYTl5NolmCRjN value大小为： 300000 字节，占用内存大小为： 872080
+测试的key值为： q88nGYEIOeBqAa6PP7veLOPtol1GwSeWc8CwY5Rljrh5b0a2dL value大小为： 300000 字节，占用内存大小为： 872080
+测试的key值为： 5B0d4Tvv8Nw4pQENT1Tvi6vIYA8EqCZlvdIVmU48eGA1a3LXMw value大小为： 300000 字节，占用内存大小为： 872080
+测试的key值为： 3h34cKjaMzeSMr1fePZT9RYWS2myRFlaAKOCIktKgMTkQ2sI1I value大小为： 300000 字节，占用内存大小为： 872080
+测试的key值为： NSQsV1pU1nj8PXPNjS1QSIbzpxKYGzHKt0BMoC9cECsWqmTuQa value大小为： 300000 字节，占用内存大小为： 872080
+******************分析结果******************
+测试value大小为： 300000 字节，平均每个 key 的占用内存空间 872080
+
+
+******************分析开始******************
+测试的key值为： MoIScxRUOVczZYxQYjLUZPm8i8vBDxD5OeIiQ931venH7wtTfb value大小为： 500000 字节，占用内存大小为： 1572496
+测试的key值为： 3V9oBU22AUzgPqSlRVKVFFiqRQWBoKHjoWkyTMiO29VDQuJ2Wx value大小为： 500000 字节，占用内存大小为： 1572496
+测试的key值为： I8YQARCZSltLQuoB2rFvmFNaacWpvtSDiHUE77rINP10UEeesM value大小为： 500000 字节，占用内存大小为： 1572496
+测试的key值为： Gczd07LOHIyDrBJ2pGqVfmJdTVNJsxvFbO2pKsrDvlqInExYuW value大小为： 500000 字节，占用内存大小为： 1572496
+测试的key值为： PXRsScZr5FPNqC9XEJQnIseKUij3Qbf0juIjX9Pa2mddin8zXP value大小为： 500000 字节，占用内存大小为： 1572496
+测试的key值为： 7bzj0TNMatXRy6B6dObfNV0QfYV8uszCDba264fa0n4YZuZjPH value大小为： 500000 字节，占用内存大小为： 1572496
+测试的key值为： JtrYAUXXCKvWoynTl5zHkr0FupPUKtNwu3vippQmpgFtNlP7GR value大小为： 500000 字节，占用内存大小为： 1572496
+测试的key值为： aEfNHPTgVw8l8u0BmGEYV7sXGXiYlFeSBFXledPWZiYuf8MTlQ value大小为： 500000 字节，占用内存大小为： 1572496
+测试的key值为： Qx8fNVvveq0Y96YNswnen7syfLnJouslbxmZHPy3qpC55BxsY2 value大小为： 500000 字节，占用内存大小为： 1572496
+测试的key值为： 6jb1ycgYhqCIxbJsURDr40JU1Z7b79FlVZihuLJDddcDy9rTH1 value大小为： 500000 字节，占用内存大小为： 1572496
+******************分析结果******************
+测试value大小为： 500000 字节，平均每个 key 的占用内存空间 1572496
+
