@@ -33,7 +33,7 @@ func Unpack(reader *bufio.Reader) (string, error) {
 	var (
 		prefixLen = PackageLength + HeaderLength
 	)
-	//读取前缀字节（这里是定义的6个字节，包长度4个和head2个）
+	//读取前缀字节（这里是定义的6个字节，包长度4个和header2个）
 	prefixByte, err := reader.Peek(prefixLen)
 	if err != nil {
 		return "", err
