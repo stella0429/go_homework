@@ -44,7 +44,7 @@ func init() {
 			"localhost:6383",
 			"localhost:6384",
 		},
-		Password:     "123456ssw",
+		Password:     "123456",
 		DialTimeout:  50 * time.Second, // 设置连接超时
 		ReadTimeout:  50 * time.Second, // 设置读取超时
 		WriteTimeout: 50 * time.Second, // 设置写入超时

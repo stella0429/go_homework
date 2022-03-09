@@ -9,8 +9,8 @@ import (
 var (
 	////todo ip修改
 	dbhostsip  = "localhost:3306"
-	dbusername = "shantest"
-	dbpassword = "123456ssw"
+	dbusername = "test"
+	dbpassword = "123456"
 	dbname     = "mydb"
 )
 
