@@ -26,7 +26,16 @@ c.docker+redis（单机集群）搭建
 2.golang操作各类中间件使用案列：见同目录下/lastproject/cmd/middlewaretest/目录下对应名称的demo文件
 1) es基本操作：添加，查询，批量查询，更新，条件查询更新删除文档等；
 2）mysql基本操作：增删改查事务等操作；
-3) redis集群基本操作：基本键值，list，set，hash，sorted set等各类数据结构和事务处理命令的使用；
+3) redis集群基本操作：
+a.基本键值，list，set，hash，sorted set等各类数据结构和pipeline事务处理的使用；
+b.pipeline优化：
+    (1)目的是将一批命令打包到一个内部维护的queue里，然后建立socket与server交互，这时只会发送一次命令，也就是只会交互一次;
+    (2)然后queue内的命令都执行完后会一起返回结果，这样大大减少了通信的次数，降低了通信所耗费的时间;
+    (3)queue是先进先出，所以可以保证执行顺序;
+    (4)server对pipeline的命令结果进行缓存处理，会消耗很多内存，同时client执行命令后，结果会缓存在client-revice-buffer中;
+    (5)如果缓存满了，通知server停止发送数据，因此要控制好每次pipeline的大小，保持效率最高。
+    (6)适用场景：对实时性要求不高；批量将数据写入 redis，允许一定比例的写入失败。
+    (7)不适用场景：要求可靠性高，每次都需要实时知道这次操作是否成功，数据是否写入redis了等对实时性的这种需求都不适合。
 4）kafka基本操作：简单封装生产者和消费者的demo实现，以及一些常见问题的处理：
 a.producer把消息发送给broker时产生的丢失：网络抖动；master接收到消息，在未将消息同步给follower之前，挂掉了；master接收到消息，master未成功将消息同步给每个follower。
     解决：producer设置acks参数，config.Producer.RequiredAcks = sarama.WaitForAll
@@ -47,3 +56,8 @@ f.重复消费和消息幂等问题。
     解决：
     （1）如果是存在redis中不需要持久化的数据，比如string类型，set具有天然的幂等性，无需处理。
     （2）插入mysql之前，进行一次query操作，针对每个客户端发的消息，生成一个唯一的ID（雪花算法），或者直接把消息的ID设置为唯一索引。
+
+3.基于grpc和protobuf的客户端和服务端的简单实时通讯demo实现：
+1）见同目录下/lastproject/cmd/helloworld/目录下文件；
+2）功能：客户端和服务器端简单实时通讯，创建双向数据流，包括head头数据等传递。
+

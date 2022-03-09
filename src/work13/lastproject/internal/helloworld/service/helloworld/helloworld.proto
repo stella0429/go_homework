@@ -1,0 +1,22 @@
+
+syntax = "proto3";
+
+option go_package = "project/internal/helloworld/service/helloworld";
+
+package helloworld;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHelloStream (stream HelloRequest) returns (stream HelloReply) {}
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string input = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string output = 1;
+}
