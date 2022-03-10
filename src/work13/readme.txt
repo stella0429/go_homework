@@ -61,3 +61,6 @@ f.重复消费和消息幂等问题。
 1）见同目录下/lastproject/cmd/helloworld/目录下文件；
 2）功能：客户端和服务器端简单实时通讯，创建双向数据流，包括head头数据等传递。
 
+4.prometheus使用demo：
+1）见同目录下/lastproject/cmd/prometheus/目录下文件；
+
